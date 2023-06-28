@@ -1,0 +1,86 @@
+/* Стилизация body */
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/* Главный section формы регистрации */
+.mainSection {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    top: 30%;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2), -2px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: none;
+    z-index: 4;
+}
+
+/* Основная форма регистрации и отправки данных */
+.MainSection_Form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Стилизация кнопок на форме */
+.ButtonDec {
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    height: 40px;
+    padding: 10px;
+}
+
+/* Дополнительный класс кнопки регистрации */
+.RegistrationButton {
+margin-left: 40px;
+}
+
+/* Поле ввода Email */
+.InputEmailRegistr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #000; 
+    height: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* Поле ввода пароля */
+.InputPasswordRegistr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+/* Подпись Email */
+.LabelEmailRegistr {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+/* Подписть пароля */
+.LabelPasswordRegistr {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+/* Стилизация основного элемента списка: ul */
+.listDec {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+}
+

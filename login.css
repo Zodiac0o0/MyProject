@@ -1,0 +1,87 @@
+/* Стилизация кнокпок */
+.ButtonDec {
+    background-color: lightgray;
+    border-radius: 20px;
+    border: 0px;
+    margin-left: 5px;
+    font-size: 20px;
+    box-shadow: 4px 6px 7px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    height: 40px;
+    padding: 10px;
+}
+
+/* Поле  ввода Email */
+.InputEmail {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    height: 30px;
+    font-size: 20px;
+}
+
+/* Поле ввода пароля */
+.InputPassword {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    height: 30px;
+    font-size: 20px;
+}
+
+/* Подпись Email */
+.LabelEmail {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/* Подпись Пароля */
+.LabelPassword {
+    font-size: 25px;
+}
+
+/* Стилизация основного элемента списка: ul */
+.listDec {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+
+/* Стилизация основного тега формы: form */
+.SectionAuto_Form {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.2), -2px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    top: 30%;
+    left: 50%;
+    padding: 10px;
+    margin-left: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    display: none;
+    z-index: 4;
+}
+
+/* Класс для div для применения флексбоксов */
+.DisplayFlex {
+    display: flex;
+    flex-direction: column;
+}
+.ButtonOn {
+    border: 2px outset white;
+}
+.ButtonOff {
+    margin-left: -4px;
+    border: 2px outset #000;
+}
+
+
+
+

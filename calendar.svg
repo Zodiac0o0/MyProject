@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#89C14D;}
+	.st1{fill:#88C04C;}
+	.st2{fill:#89C24A;}
+	.st3{fill:#FF875B;}
+	.st4{fill:#89C14D;stroke:#FF635B;}
+	.st5{fill:#14A504;}
+</style>
+<g>
+	<rect x="447.9" y="611.3" class="st0" width="51.1" height="52.6"/>
+	<rect x="377.2" y="313.1" class="st0" width="51.1" height="52.6"/>
+	<rect x="306" y="313.1" class="st0" width="51.1" height="52.6"/>
+	<rect x="447.9" y="313.1" class="st0" width="51.1" height="52.6"/>
+	<rect x="518.4" y="313.1" class="st0" width="51.1" height="52.6"/>
+	<rect x="589.6" y="313.1" class="st1" width="51.1" height="52.6"/>
+	<rect x="589.6" y="412.2" class="st0" width="51.1" height="52.6"/>
+	<rect x="518.4" y="413.2" class="st2" width="51.1" height="52.6"/>
+	<rect x="447.9" y="413.2" class="st0" width="51.1" height="52.6"/>
+	<rect x="377.2" y="413.2" class="st0" width="51.1" height="52.6"/>
+	<rect x="306" y="413.2" class="st0" width="51.1" height="52.6"/>
+	<rect x="235.2" y="413.2" class="st0" width="51.1" height="52.6"/>
+	<rect x="164" y="413.2" class="st2" width="51.1" height="52.6"/>
+	<rect x="164" y="512.3" class="st0" width="51.1" height="52.6"/>
+	<rect x="235" y="512.3" class="st0" width="51.1" height="52.6"/>
+	<rect x="306" y="512.3" class="st0" width="51.1" height="52.6"/>
+	<rect x="377.2" y="512.3" class="st0" width="51.1" height="52.6"/>
+	<rect x="447.9" y="512.3" class="st0" width="51.1" height="52.6"/>
+	<rect x="518.4" y="512.3" class="st3" width="51.1" height="52.6"/>
+	<rect x="589.6" y="512.3" class="st0" width="51.1" height="52.6"/>
+	<rect x="164" y="611.3" class="st4" width="51.1" height="52.6"/>
+	<rect x="235.2" y="611.3" class="st0" width="51.1" height="52.6"/>
+	<rect x="306" y="611.3" class="st0" width="51.1" height="52.6"/>
+	<rect x="377.2" y="611.3" class="st0" width="51.1" height="52.6"/>
+</g>
+<g id="Слой_3">
+	<path class="st5" d="M728,119.6c-0.5-6.4-3.1-27-20-45.2c-17.9-19.3-40-22.9-46.1-23.7h-69.2v65.1c-4.3,16.7-19.1,28.6-36,29.1
+		c-17.9,0.5-34.1-12-38.3-29.9V50.6H281.2v65.1c-4.3,16.8-19.1,28.6-36,29.1c-17.9,0.5-34.1-12-38.3-29.9l-0.8-64.3h-68.9
+		c-6.1,0.8-28.1,4.4-46,23.7c-16.8,18.2-19.4,38.8-19.9,45.2v115.7H728L728,119.6L728,119.6z"/>
+	<path class="st5" d="M156.1,797c-7,0.7-28.9,2-50.2-11.9c-30.4-19.9-34.2-54.2-34.6-58.8l48.6-1.7c0.1,2.1,0.7,8.7,5.8,14.5
+		c4.1,4.8,9,6.7,11.2,7.3l524.5-0.2c1.8-0.3,8.1-1.6,13-7.3c5.4-6.2,5.4-13.3,5.4-14.9l48.3,2.3c-0.2,3.8-2.4,38.8-32.7,58.8
+		c-22.8,15-46.6,11.7-52.4,10.8"/>
+	<polyline class="st5" points="679.5,721.9 679.5,235.2 728,235.2 728,726.3 679.5,726.3 	"/>
+	<polyline class="st5" points="119.9,724.6 119.9,235.2 71.3,235.2 71.3,726.3 	"/>
+</g>
+<g id="Слой_4">
+	<path class="st0" d="M230.6,14.6c-14.8,22.4-2.8,86.1,0,100.3c1.1,1.1,5.7,5.1,12.8,5.4c7.9,0.3,13.1-4.4,14-5.4
+		c2.6-14.2,14-77.8,0-100.3c-1.9-3.1-6.6-10.6-13-10.7C237.8,3.8,232.8,11.4,230.6,14.6z"/>
+	<path class="st0" d="M542.3,14.6c-14.8,22.4-2.8,86.1,0,100.3c0.9,1,5.3,5.5,12.6,5.9c8.3,0.4,13.5-5.1,14.3-5.9
+		c2.6-14.2,14-77.8,0-100.3c-1.9-3.1-6.6-10.6-13-10.7C549.5,3.8,544.5,11.4,542.3,14.6z"/>
+</g>
+</svg>
