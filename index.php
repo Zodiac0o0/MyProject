@@ -80,10 +80,8 @@
                 class="description" id="description" name="description">
                 <input value = "<?php echo $taskDate; ?>" type="date" id="InputDate" name="InputDate">
                 <input value = "<?php echo $taskTime; ?>" type="time" id="InputTime" name="InputTime">
+                <button type = "submit">Добавить</button>
                 <div class="addNewElement"></div>
-                <div class = "SpanSlider">
-                    <!-- <button type = "button" class = "ButtonSlider"></button> -->
-            </div>
             </form>
         </div>
     </section>
