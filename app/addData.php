@@ -4,7 +4,6 @@ $host = "localhost";
 $username = "root";
 $password = "";
 $dbname = "datatask";
-
 $conn = mysqli_connect($host, $username, $password, $dbname);
 session_start();
 // Проверяем подключение к базе данных
@@ -24,7 +23,7 @@ if(isset($_SESSION['emailuser'])) {
 if ($conn->query($sql) === TRUE) {
     echo "Успешно";
     $Home = " На главную";
-    echo "<a href = 'index.php'>" . $Home . "</a>";
+    echo "<a href = '../index.php'>" . $Home . "</a>";
 }
 else {
 echo "Ошибка";
@@ -35,7 +34,8 @@ mysqli_close($conn);
 else {
     print 'Сессия не начата';
     $Home = " На главную";
-    echo "<a href = 'index.php'>" . $Home . "</a>";
+    echo "<a href = '../index.php'>" . $Home . "</a>";
+
 }
 
 ?>

@@ -7,6 +7,6 @@
 </head>
 <body>
     <a href = "logout.php" class = "registrDec">Выйти</a>
-    <a href = "index.php" class = "registrDec">На главную</a>
+    <a href = "../index.php" class = "registrDec">На главную</a>
 </body>
 </html>
