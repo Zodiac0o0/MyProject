@@ -37,7 +37,7 @@
                         $taskTextT = $rowText["TaskText"];
                         $resultText->free_result();
                     } else {
-                        $taskTextT = "Значение не найдено";
+                        $taskTextT = "";
                     }
                     $taskdate = "SELECT TaskDate FROM tasklist where email = '$email'";
                     $resultDate = $conn->query($taskdate);
@@ -46,7 +46,7 @@
                         $taskDate = $rowDate["TaskDate"];
                         $resultDate->free_result();
                     } else {
-                        $taskDate = "Значение не найдено";
+                        $taskDate = "";
                     }
                     $tasktime = "SELECT TaskTime FROM tasklist where email = '$email'";
                     $resultTime = $conn->query($tasktime);
@@ -55,7 +55,7 @@
                         $taskTime = $rowTime["TaskTime"];
                         $resultTime->free_result();
                     } else {
-                        $taskTime = "Значение не найдено";
+                        $taskTime = "";
                     } 
                     $countTask = "SELECT COUNT(*) AS Email FROM tasklist WHERE Email = '$email'";
                     $resultCountTask = $conn->query($countTask);
@@ -67,7 +67,7 @@
                     }
                     $ButtonText = "Добавить";
                     $StructureTask = 
-                "<div class = 'main_container'>
+                "<div class = 'main_container newDivMarginBottom'>
                     <form action = 'app/addData.php' method = 'post' id = 'TaskForm'>
                         <input value = '$taskTextT' type = 'text' placeholder='Введите описание'
                         class='description' id='description' name='description'>
@@ -75,6 +75,7 @@
                         <input value = '$taskTime' type='time' id='InputTime' name='InputTime'>
                         <button type = 'submit'>$ButtonText</button>
                         <div class='addNewElement'></div>
+                        <div class='DeleteNewElement'></div>
                     </form>
                 </div>";
                 }
@@ -104,9 +105,13 @@
                 <div class="addNewElement"></div>
             </form>
         </div>
-        <?php 
-        for ($i = 0; $i < $countEmail; $i++) {
+        <?php
+        if (isset($_SESSION['emailuser'])) {
+        for ($i = 0; $i < $countEmail -1; $i++) {
             echo $StructureTask;                
+        }
+        } else {
+            $StructureTask = "";
         }
         
         ?>

@@ -18,6 +18,7 @@ function addNewElementFunction(){
         let addFunctionDiv = document.createElement('div');
         let DeleteFunctionDiv = document.createElement('div');
         let newForm = document.createElement('form');
+        let ButtonAdd = document.createElement('button');
         
 
         newInput.type = 'text';
@@ -36,7 +37,7 @@ function addNewElementFunction(){
         newForm.action = 'addData.php';
         newForm.method = 'post';
         newForm.id = 'TaskForm';
-        
+        ButtonAdd.textContent = "Добавить";
         
         sectionPositionElement.appendChild(newForm);
         newForm.appendChild(newDiv);
@@ -45,6 +46,7 @@ function addNewElementFunction(){
         newDiv.appendChild(newInputTime);
         newDiv.appendChild(addFunctionDiv);
         newDiv.appendChild(DeleteFunctionDiv);
+        newDiv.appendChild(ButtonAdd);
 
 }
 
